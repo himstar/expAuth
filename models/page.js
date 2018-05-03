@@ -1,6 +1,8 @@
 var mongoose = require('mongoose');
 
-var pageSchema = mongoose.Schema({
+// Page Schema
+var PageSchema = mongoose.Schema({
+   
     title: {
         type: String
     },
@@ -12,7 +14,8 @@ var pageSchema = mongoose.Schema({
     },
     sidebar: {
         type: String
-    },            
+    },
+
 });
 
-var page = module.exports = mongoose.model("page", pageSchema);
+var Page = module.exports = mongoose.model("Page", PageSchema);
