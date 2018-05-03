@@ -1,3 +1,3 @@
 module.exports = {
-    database: 'mongodb://localhost/udemyangularnodecms'
+    database: 'mongodb://auth:111111@ds259109.mlab.com:59109/auth'
 }
